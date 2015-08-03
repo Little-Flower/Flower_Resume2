@@ -1,0 +1,49 @@
+/*清除默认样式*/
+body,p,img,ul,li,ol,h1,h2,h3{margin:0; padding: 0; border: 0;list-style: none; font-size: 16px; font-family: "宋体";}
+/*整个简历*/
+#all{ background:url(../images/1.jpg); padding:40px 70px; padding-bottom: 10px;}
+#big{width: 900px; margin:0 auto; margin-left: 170px;}
+i{font-family: "Times New Roman"; font-style: normal;}
+/*topT*/
+#topT{width:400px; background: #fff; height: 50px; line-height: 50px; font-size: 18px; font-weight: bold; float: right; margin-right: 50px; box-shadow: 0px 0px 3px 3px #ccc; border:1px solid #ddd;}
+#topT i{padding-left:80px; }
+#topT i a:link,#topT i a:visited{color: #000; text-decoration: none;}
+
+
+/*top*/
+#top{width:880px;   background: #fff; height: 180px; position: relative; clear: both;}
+#top .long { position: absolute; left: 330px; top: -100px;  }
+#top .long img{width: 200px; height: 130px;}
+#top .topL,#top .topR{width: 415px;background: #000; height: 150px; float: left; margin:15px 20px;}
+#top .topL{margin-right: 10px;position: relative;}
+#top .topL .wei{position: absolute; left: 7px; top: -12px; font-size: 14px;}
+#top .topL .photo img{height: 150px;width: 150px; float: left; display: block; margin-left: -10px;}
+#top .topL .name{ color: #fff; font-size: 24px; font-weight: bold; padding-left: 240px; padding-top: 20px;}
+#top .topL .job{color: #fff; font-size: 24px; font-weight: bold; padding-left: 190px; padding-top: 20px;}
+
+#top .topL .text{ color: #fff;margin-left: 50px; position: absolute; left: 148px; top: 230px;}
+#top .topL .text p{height: 30px; line-height: 30px; font-weight: bold; font-size: 18px;}
+#top .topL .text p .i1{color:#E73D86; }
+#top .topL .text p .i2{color: #25C01E;}
+#top .topL .text p img{width: 18px; height: 18px;margin-right: 16px;}
+#top .topR{margin-left: 0px; color: #FFF;}
+#top .topR ul{padding-left: 30px; padding-top: 10px;}
+#top .topR li{ cursor: pointer;height: 24px; line-height: 24px; border:1px dashed #FFF; float: left; padding:3px 8px; margin:15px; }
+#top .topR li.current{background:#E73D86; }
+#topB .topBR ul{padding:15px;}
+#topB .topBR ul li{display: none;}
+#topB .topBR ul li.current{display: block;}
+#topB .topBR ul li h2{padding-bottom: 15px;}
+#topB .topBR ul li p.edutime{height: 30px; line-height: 30px; width: 120px;text-align: center; background:#25C01E; display: inline-block; border-radius: 15px; margin:15px 0; }
+#topB .topBR ul li p span{display: inline-block; width: 20px; height: 20px; border-radius: 10px; background:#25C01E; text-align: center; margin:3px; }
+#topB .topBR ul li p strong{height: 30px; line-height: 30px; padding:0px 10px; background:#25C01E; display: inline-block;border-radius: 15px; }
+#topB .topBR ul li p.des{margin-top: 30px;}
+#topB .topBR ul li .int{margin-top: 20px;}
+
+/*topB*/
+#topB .topBL{width: 435px; height:220px; float: left; margin-left: 10px;margin-top: 40px; }
+#topB .topBL img{ width: 200px; height: 200px;  border-radius: 100px; margin-top: 10px;}
+#topB .topBR{width: 395px; height: 320px; background: #fff; float: right; margin-right: 50px; box-shadow: 0px 0px 3px 3px #ccc;}
+
+/*bottom*/
+#bottom{clear: both;}
